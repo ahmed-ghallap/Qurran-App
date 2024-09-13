@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/qurran/static/js/main.5d630e87.js",
+    "index.html": "/qurran/index.html",
+    "main.5d630e87.js.map": "/qurran/static/js/main.5d630e87.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5d630e87.js"
+  ]
+}

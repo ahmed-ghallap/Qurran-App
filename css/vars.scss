@@ -1,0 +1,48 @@
+:root {
+    --blue-500: #3B82F6;
+    --blue-500-70: rgba(59, 131, 246, 0.373);
+    --blue-500-30: rgba(59, 130, 246, .3);
+
+    --indigo-500: #6366F1;
+    --indigo-500-70: rgba(99, 101, 241, 0.5);
+    --green-500: rgb(34, 197, 94) ;
+    --green-500-70: rgba(34, 197, 94, 0.165) ;
+    --green-500-30: rgba(34, 197, 94, .30) ;
+
+    --yellow-500-70: rgba(253, 223, 71, 0.365);
+    --yellow-500-30: rgba(253, 223, 71, 0.064);
+    --yellow-500: rgb(253, 220, 56);
+
+    --cyan-400: #06B6D4;
+    --cyan-400-70: #06b5d47d;
+
+    --rose-400: #E11D48;
+    --rose-400-70: rgba(225, 29, 71, 0.33);
+    --rose-400-30: rgba(225, 29, 71, 0.1);
+}
+.yellow {
+    --clr: var(--yellow-500);
+    --clr-70: var(--yellow-500-70);
+    --clr-30: var(--yellow-500-30);
+}
+.rose {
+    --clr: var(--rose-400);
+    --clr-70: var(--rose-400-70);
+    --clr-30: var(--rose-400-30);
+    --clr-text: white;
+}
+.blue {
+    --clr: var(--blue-500);
+    --clr-70: var(--blue-500-70);
+    --clr-30: var(--blue-500-30);
+    --clr-text: white;
+}
+.green {
+    --clr: var(--green-500);
+    --clr-70: var(--green-500-70);
+    --clr-30: var(--green-500-30);
+    --clr-text: white;
+}
+
+
+
