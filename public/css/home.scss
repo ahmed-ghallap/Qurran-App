@@ -1,0 +1,143 @@
+// start home navbar
+.m-btn {
+    .icon svg {
+        color: white !important;
+    }
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding-inline: 1rem;
+    margin-inline: auto;
+    margin-bottom: .5rem;
+    height: 60px;
+    border-radius: 12px; 
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+    }
+    &:hover::after, &:focus-visible::after {
+        opacity: 1;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url("../media/bar.jpg") no-repeat  top center/cover fixed;
+        opacity: .6;
+        transition: .3s;
+        z-index: -1;
+    }
+}
+
+.home-navbar {
+    padding: 0;
+    .container {
+        height: 100%
+    }
+    .navbar-brand {
+        color: white !important;
+        font-weight: 600;
+        filter: drop-shadow(0 0 12px var(--blue-500));
+    }
+    .fa-bars-staggered, .fa-x {
+        color: white;
+    }
+    .offcanvas-backdrop.show {
+        opacity: 0;
+    }
+
+    #offcanvasNavbar {
+        background-color: rgba(255, 255, 255, .2);
+        backdrop-filter: blur(10px);
+        .nav-item {
+            text-align: center;
+            border-bottom: 1px solid;
+        }
+        .nav-link {
+            color: white;
+            font-weight: 600;
+        }
+    }
+}
+// end home navba
+
+// start Main Home
+main  {
+    padding-block: 20px; 
+    .content {
+        padding-top: 10px;
+        height: 100%;
+        overflow: scroll;
+        .calender {
+            margin: 0px auto;
+            width: max-content;
+            text-align: center;
+            color: white;
+    
+            border: 2px solid var(--blue-500);
+            border-radius: 7px;
+            span {
+                display: inline-block;
+                height: 100%;
+                padding: .4rem .8rem;
+                // width: 100%;
+            }
+            #day { 
+                font-weight: 600;
+            }
+            #date {
+                background-color: var(--blue-500);
+                border-radius: 4px;
+            }
+        }
+
+        .btns {
+            margin-top: 40px;
+            .m-btn {
+                width: 90%;
+            }
+            .active::after {
+                opacity: 1;
+            }
+
+            .indigo {
+                background: var(--indigo-500-70);
+                --clr : var(--indigo-500);
+            }
+            .green {
+                background: var(--green-500-70);
+                --clr : var(--green-500);
+            }
+            .yellow {
+                background: var(--yellow-500-70);
+                --clr: var(--yellow-500);
+            }
+            .cyan {
+                background: var(--cyan-400-70);
+                --clr: var(--cyan-400);
+            }
+            .pink {
+                background: var(--rose-400-70);
+                --clr : var(--rose-400);
+            }
+        }
+    }
+
+}
+// End Main Home

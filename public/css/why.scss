@@ -1,0 +1,84 @@
+body::after {
+    display: block;
+    --clr: var(--clr-70);
+}
+
+// Start Why nav
+.back-navbar {
+    background-color: var(--clr-70);
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url("../media/textrue.jpg") no-repeat  center center/cover fixed;
+        opacity: .6;
+        transition: .3s;
+        z-index: -1;
+    }
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100%;
+        width: 100%;
+        padding-inline: 1rem;
+
+        svg {
+            color: var(--clr);
+            font-size: 1.4rem !important;
+        }
+        .text {
+            margin-inline-end: .2rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+        }
+    }
+
+}
+// End Why nav
+
+// Start Main Why
+main {
+    padding: 0;
+    .control{}
+    .back-content {
+        height: calc(100% - 55px);
+        width: 100%;
+        padding: .8rem ;
+        overflow: scroll;
+        border-radius: 7px;
+
+        // background-color: rgba(255, 255, 255, 0.9);
+
+        .accordion-item {
+            border-bottom: 2px solid var(--clr);
+            border-radius: 12px;
+            .accordion-button{
+                background-color: white;
+                border-radius: 12px;
+                color: black;
+                &:focus, &:focus-visible {
+                    box-shadow: none;
+
+                }
+            }
+        }
+        .accordion-body {
+            // transform: translateY(-15px);
+            padding-block: 1rem;
+            background-color: var(--clr-70) ;
+            backdrop-filter: blur(2px);
+            color: var(--clr-text);
+            font-weight: 500;
+            border-radius: 0 0 12px 12px;
+            border-bottom: 2px solid var(--clr);
+        }
+    }
+}
+// End Main Why
