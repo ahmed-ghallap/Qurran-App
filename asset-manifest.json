@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/qurran/static/js/main.1a240205.js",
+    "main.js": "/qurran/static/js/main.031efd3b.js",
     "index.html": "/qurran/index.html",
-    "main.1a240205.js.map": "/qurran/static/js/main.1a240205.js.map"
+    "main.031efd3b.js.map": "/qurran/static/js/main.031efd3b.js.map"
   },
   "entrypoints": [
-    "static/js/main.1a240205.js"
+    "static/js/main.031efd3b.js"
   ]
 }
