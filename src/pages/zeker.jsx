@@ -90,7 +90,7 @@ const Main = ({ theme, fileName }) => {
             <div style={{ fontSize: `${fontSize}px` }} className={theme + " back-content zeker"}>
                 {datas.map((foo, index) => {
                     // تمرير الكائنات بناءً على الوقت الحالي وقيمة kind
-                    if ((isDayTime && foo.kind === 1) || (!isDayTime && foo.kind === 0)) {
+                    if ((isDayTime && foo.kind === 0) || (!isDayTime && foo.kind === 1)) {
                         return (
                             <Square
                                 key={index}
