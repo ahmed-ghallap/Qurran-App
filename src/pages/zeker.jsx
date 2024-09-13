@@ -34,7 +34,8 @@ const Main = ({theme, fileName }) => {
 
         // Function to fetch data from the server
         const fetchData = async () => {
-            try {
+            try 
+            {
                 const response = await fetch('data/'+fileName+'.json'); // Replace with your server URL
 
                 if (!response.ok) 
@@ -52,6 +53,7 @@ const Main = ({theme, fileName }) => {
         };
 
         fetchData();
+        console.log(localStorage.getItem(fileName))
         if (localStorage.getItem(fileName) == '') {
             fetchData();
             localStorage.setItem(fileName, JSON.stringify(datas));

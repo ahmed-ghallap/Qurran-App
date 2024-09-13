@@ -8,7 +8,7 @@ const Main = () => {
 
                 <Calender />
                 <div className="btns">
-                    <Link to="/" className="m-btn indigo active">
+                    <Link to="book" className="m-btn indigo active">
                         <span className="text">
                                 القرآن الكريم 
                         </span>

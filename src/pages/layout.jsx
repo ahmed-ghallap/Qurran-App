@@ -14,7 +14,9 @@ const Footer = () => {
             <nav className="container">
                 <ul className="nav  justify-content-between align-items-center ">
                     <li  className="nav-item"><a href="" class="nav-link">
+                        <Link to="book">
                             <i className="fa-solid fa-book-quran fa-2xl"></i>
+                        </Link>
                     </a></li>
                     <li className="nav-item"><a href="" class="nav-link">
                         <Link to="zeker">
