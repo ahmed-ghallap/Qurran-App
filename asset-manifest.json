@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/Qurran-App/static/js/main.d95900d1.js",
+    "main.js": "/Qurran-App/static/js/main.5beb447c.js",
+    "service-worker.js": "/Qurran-App/service-worker.js",
     "index.html": "/Qurran-App/index.html",
-    "main.d95900d1.js.map": "/Qurran-App/static/js/main.d95900d1.js.map"
+    "main.5beb447c.js.map": "/Qurran-App/static/js/main.5beb447c.js.map"
   },
   "entrypoints": [
-    "static/js/main.d95900d1.js"
+    "static/js/main.5beb447c.js"
   ]
 }
